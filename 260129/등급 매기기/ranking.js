@@ -1,5 +1,7 @@
 const fs = require("fs");
-let N = fs.readFileSync(0).toString().trim();
+let input = fs.readFileSync(0).toString().trim();
+
+let N = Number(input)
 
 if (N>=90) {
     console.log("A")
