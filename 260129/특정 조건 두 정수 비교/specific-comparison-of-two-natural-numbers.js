@@ -9,7 +9,7 @@ let resultA, resultB;
 if (A<=B) {
     resultA = 1;
 } else {
-    resultB = 0;
+    resultA = 0;
 };
 
 if (A===B) {
