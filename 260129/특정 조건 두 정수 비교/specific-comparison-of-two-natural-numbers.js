@@ -6,7 +6,7 @@ let B = Number(input[1]);
 
 let resultA, resultB;
 
-if (A<=B) {
+if (A<B) {
     resultA = 1;
 } else {
     resultA = 0;
