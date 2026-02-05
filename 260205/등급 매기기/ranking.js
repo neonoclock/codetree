@@ -1,4 +1,5 @@
 const fs = require("fs");
+
 let input = Number(fs.readFileSync(0).toString().trim())
 
 if (input >= 90) {
