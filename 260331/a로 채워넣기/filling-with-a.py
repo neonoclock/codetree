@@ -1,6 +1,8 @@
-inp = input().strip()
+string = input()
 
-inp[1] = 'a'
-inp[-2] = 'a'
+leng = len(string)
 
-print(inp)
+string = string[:1] + 'a' + string[2:]
+string = string[:leng-2] + 'a' + string[leng-1:]
+
+print(string)
