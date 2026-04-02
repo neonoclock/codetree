@@ -1,17 +1,20 @@
 import sys
 input = sys.stdin.readline
 
+
 arr1 = []
 
-for i in range(3):
+while len(arr1) < 3:
     row = list(map(int, input().split()))
-    arr1.append(row)
+    if row:
+        arr1.append(row)
 
 arr2 = []
 
-for i in range(3):
+while len(arr2) < 3:
     row = list(map(int, input().split()))
-    arr2.append(row)
+    if row:
+        arr2.append(row)
 
 for i in range(3):
     for j in range(3):
